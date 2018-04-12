@@ -37,10 +37,23 @@ nav {
   margin: auto;
 }
 
+.round-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 1px solid var(--corporate-black80);
+  margin: auto;
+}
+
+.round-image img {
+  width: 109px;
+  margin: 20px;
+}
+
 /* Helpers */
 
-.vh-89 {
-  height: 85vh;
+.vh-74 {
+  height: 74vh;
 }
 
 .hidden {
