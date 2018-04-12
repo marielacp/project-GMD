@@ -162,3 +162,18 @@ button.button.fluid a {
     background: #005db9 !important;
     color: #fff !important;
 }
+
+
+/*prueba css */
+
+body {
+    padding: 1em;
+  }
+  
+  .ui.action.input input[type="file"] {
+    display: none;
+  }
+  
+ /*  //    source : http://jsfiddle.net/bm0u8snr/1/     ///
+  
+  ///     modified by Mr.Bahador     /// */
