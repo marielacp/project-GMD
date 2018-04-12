@@ -50,7 +50,6 @@ Object.keys(questions).forEach((key, index) => {
 
 function ShowQuestion(chosenQuestions) {
   chosenQuestions.forEach((question) => {
-    console.log(question.question);
     /* $(".questions .list").append(`
       <li> ${question.question}</li>`
     ); */
