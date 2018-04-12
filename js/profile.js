@@ -204,7 +204,7 @@ $(function () {
         onSuccess: function (e) {
           e.preventDefault();
           alert('Gracias por postular GMD');
-          $(location).attr('href', '../views/step-user.html');
+          $(location).attr('href', 'project-GMD/views/step-user.html');
         }
       })
   });
