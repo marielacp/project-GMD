@@ -11,112 +11,150 @@
 </head>
 
 <body>
-  <div class="ui grid container">
-    <div class="row">
-      <div class="ui ordered steps">
-        <div class="active step step-1">
-          <div class="content">
-            <div class="title">Requisitos</div>
-            <div class="description">Verifica los requisistos para este puesto</div>
-          </div>
-        </div>
-        <div class="step step-2">
-          <div class="content">
-            <div class="title">Entrevista</div>
-            <div class="description">Es necesario que completes las preguntas</div>
-          </div>
-        </div>
-        <div class="step step-3">
-          <div class="content">
-            <div class="title">Bienvenida</div>
-            <div class="description">¡Ya eres parte del equipo!</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
+  <nav>
+    <div class="ui grid">
       <div class="sixteen wide column">
-        <div class="content-step-1 vh-89 center-xy hidden">
-          <div class="center aligned">
-            <h3 class="ui header center aligned">
-              <p class="step-description-1">¡Has pasado a la siguiente etapa!</p>
-            </h3>
-            <button class="ui right labeled icon button primary next-step-2">
-              <i class="right arrow icon"></i>
-              Siguiente2
-            </button>
-          </div>
-        </div>
-        <div class="content-step-2 vh-89 center-xy">
-          <div class="center aligned">
-            <div class="questions questions-step-2">
-              <h3 class="ui header center aligned">
-                <p class="step-description-1">Cuestionario</p>
-              </h3>
-              <ol class="ui list">
-              </ol>
-              <button class="ui primary button">
-                Grabar respuestas
-              </button>
-            </div>
-            <div class="result-step-2 hidden">
-              <h3 class="ui header center aligned">
-                <p class="step-description-1">Tu respuesta ha sido enviado correctamente.
-                  <br> En el transcurso de la semana, te estaremos enviando el resultado de la evaluación.
-                </p>
-              </h3>
-              <button class="ui right labeled icon button primary next-step-3">
-                <i class="right arrow icon"></i>
-                Siguiente3
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="content-step-4 vh-89 center-xy hidden">
-          <div class="center aligned">
-            <div class="questions hidden">
-              <h3 class="ui header center aligned">
-                <p class="step-description-1">Cuestionario</p>
-              </h3>
-              <ol class="ui list">
-                <li> ¿Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, esse consequatur. Mollitia obcaecati illo
-                  optio iure vel reiciendis at, unde praesentium eligendi tempore eum accusamus id dolore maiores ratione?
-                  Nulla? </li>
-                <li> ¿Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, esse consequatur. Mollitia obcaecati illo
-                  optio iure vel reiciendis at, unde praesentium eligendi tempore eum accusamus id dolore maiores ratione?
-                  Nulla? </li>
-                <li> ¿Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, esse consequatur. Mollitia obcaecati illo
-                  optio iure vel reiciendis at, unde praesentium eligendi tempore eum accusamus id dolore maiores ratione?
-                  Nulla? </li>
-                <li> ¿Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, esse consequatur. Mollitia obcaecati illo
-                  optio iure vel reiciendis at, unde praesentium eligendi tempore eum accusamus id dolore maiores ratione?
-                  Nulla? </li>
-                <li> ¿Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, esse consequatur. Mollitia obcaecati illo
-                  optio iure vel reiciendis at, unde praesentium eligendi tempore eum accusamus id dolore maiores ratione?
-                  Nulla? </li>
-              </ol>
-              <button class="ui primary button">
-                Grabar respuestas
-              </button>
-            </div>
-            <div class="result-step-2">
-              <h3 class="ui header center aligned">
-                <p class="step-description-1">4
-                </p>
-              </h3>
-
+        <div class='ui secondary huge menu'>
+          <div class='ui container'>
+            <a class='item brand'>
+              <img src="../assets/logoGMD.png" alt="">
+            </a>
+            <div class='right menu'>
+              <a class='link item'>Inicio</a>
+              <a class='link item'>Outsourcing</a>
+              <a class='link item'>Soluciones y servicios</a>
+              <a class='link item'>Contáctenos</a>
+              <a class='link item'>Acerca de GMD</a>
+              <a class='link item'>Bolsa de trabajo</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </nav>
 
+  <div class="ui grid">
+    <div class="row container-step-1">
+      <div class="four wide column">
+        <div class="round-image">
+          <img src="../assets/user.png" alt="">
+        </div>
+        <h1 class="ui header center aligned">
+          Hola, Juan
+          <div class="sub header">Ing. de Sistemas</div>
+        </h1>
+      </div>
+      <div class="twelve wide column ui raised segment steps-container">
+        <div class="ui ordered steps">
+          <div class="active step step-1">
+            <div class="content">
+              <div class="title">Requisitos</div>
+              <div class="description">Verifica los requisistos para este puesto</div>
+            </div>
+          </div>
+          <div class="step step-2">
+            <div class="content">
+              <div class="title">Video</div>
+              <div class="description">Es necesario que completes las preguntas</div>
+            </div>
+          </div>
+          <div class="disabled step step-3">
+            <div class="content">
+              <div class="title">Bienvenida</div>
+              <div class="description">¡Ya eres parte del equipo!</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="content-step-1 vh-74 center-xy">
+            <div class="width-content">
+              <h2 class="ui header center aligned">
+                ¡Gracias por participar!
+              </h2>
+              <div class="center-x">
+                <img src="../assets/happy.png" alt="" class="image-state">
+              </div>
+              <p>En el transcurso de la semana estaremos verificando tus datos, por lo cual te recomendamos estar al pendiente
+                de tu bandeja de entrada de correo para el próximo proceso.</p>
+              <button class="ui right labeled icon button primary next-step-2 margin-auto center-x">
+                <i class="right arrow icon"></i>
+                Siguiente
+              </button>
+            </div>
+          </div>
+
+          <div class="content-step-2 vh-74 center-xy hidden">
+            <div class="width-content">
+              <div class="recommendations hidden">
+                <h2 class="ui header center aligned">
+                  Previa recomendaciones
+                </h2>
+                <div class="flex">
+                  <div>
+                    <img src="../assets/webcam.png" alt="">
+                  </div>
+                  <div>
+                    <ol class="ui list">
+                      <li value="*">Solo tienes una oportunidad para realizar la prueba</li>
+                      <li value="*">Te exigemos leer las preguntas en voz alta antes de responderlas</li>
+                      <li value="*">Ten en cuenta que tienes un límite
+                        <li value="*">En caso ocurra algún inconveniente el transcurso de la entrevista, Por favor favor notifícalo enviando
+                          un mensaje en el área de
+                          <a href="#">Soporte técnico.</a>
+                        </li>
+                    </ol>
+                    <button class="ui button primary next-step-2 margin-auto center-x">
+                      Iniciar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h2 class="ui header center aligned">
+                  Video recibido
+                </h2>
+                <div class="center-x">
+                  <img src="../assets/like.png" alt="" class="image-state">
+                </div>
+                <p>En los próximos días serás notificado para el próximo proceso, estate atendo tu correo electrónico.,
+                </p>
+              </div>
+              <div class="hidden">
+                <h2 class="ui header center aligned">
+                  ¡Bienvenido!
+                </h2>
+                <p>¡Estamos muy contentos de que formes parte de esta familia, donde estaremos dispuestos a contribuir con tu
+                  desarrollo profesional. Te deseamos muchos éxitos en esta nueva etapa!</p>
+                <p>Toma en cuenta lo siguiente para tu contratación</p>
+                <p>Tu firma de contrato e inducción esta programado para el día
+                  <strong>viernes 27 de abril, a las 2:00pm. Debes preguntar por Andrea Rebagliati.</strong>
+                </p>
+                <p>A demás, se adjuntan las siguientes carpetas de documentos que debes
+                  <strong>completar y traerlos el día de la firma de contrato.</strong>
+                </p>
+                <p>Da la misma manera envíamos una foto para generar tu fotocheck.</p>
+                <div class="center-x">
+                  <button class="ui primary button">
+                    Descargar carpeta de documentos
+                  </button>
+                  <button class="ui button">
+                    Adjuntar foto y enviar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="../js/app.js"></script>
   <script src="../js/questions.js"></script>
   <script src="../js/show-questions.js"></script>
-  
+
 </body>
 
 </html>
