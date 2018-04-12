@@ -31,7 +31,11 @@ for (var i = 0; i < DATA.length; i++) {
               <div class="description">Rubro: ${ref.rubro} </div>
             <div class="">
               <br>
-                <button class="ui primary button fluid">Más información </button>
+                <button class="ui primary button fluid">
+                <a href='../views/video.html'>
+                Más información 
+                </a>
+                </button>
             </div>
           </div>
         </div>

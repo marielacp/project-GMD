@@ -1,94 +1,164 @@
 :root {
-  --blue: rgb(0, 93, 180);
-  --black: rgb(43, 41, 34);
-  --corporate-black50: rgb(149, 148, 146);
-  --corporate-black80: rgb(85, 84, 79);
-  --white: rgb(255, 255, 255);
-  --dark-blue: rgb(24, 67, 109);
-  --light-blue: rgb(51, 125, 196);
+    --blue: rgb(0, 93, 180);
+    --black: rgb(43, 41, 34);
+    --corporate-black50: rgb(149, 148, 146);
+    --corporate-black80: rgb(85, 84, 79);
+    --white: rgb(255, 255, 255);
+    --dark-blue: rgb(24, 67, 109);
+    --light-blue: rgb(51, 125, 196);
+    --red-google: rgb(208, 64, 47);
 }
 
 h1 {
-  color: var(--corporate-black80);
+    color: var(--corporate-black80);
 }
 
 .ui.container .item.brand {
-  padding: 0;
+    padding: 0;
 }
 
 .ui.container .item.brand img {
-  width: 90px;
+    width: 90px;
 }
 
-.ui.grid > .row > .ui.segment.column {
-  padding-top: 0;
+.ui.grid>.row>.ui.segment.column {
+    padding-top: 0;
 }
 
 .ui.raised.segment.steps-container {
-  padding: 0;
+    padding: 0;
 }
 
 .container-step-1 {
-  margin: 28px 0;
+    margin: 28px 0;
 }
 
 nav {
-  border-bottom: 1px solid rgba(209, 209, 209, 1);
+    border-bottom: 1px solid rgba(209, 209, 209, 1);
 }
 
 /* Postulantes */
 
 .center-xy {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }
 
 .center-x {
-  display: flex !important;
-  justify-content: center;
+    display: flex !important;
+    justify-content: center;
 }
 
 .questions {
-  width: 60%;
-  margin: auto;
+    width: 60%;
+    margin: auto;
 }
 
 .round-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-  border: 1px solid var(--corporate-black80);
-  margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 1px solid var(--corporate-black80);
+    margin: auto;
 }
 
 .round-image img {
-  width: 109px;
-  margin: 20px;
+    width: 109px;
+    margin: 20px;
 }
 
 .width-content {
-  width: 60%;
+    width: 60%;
 }
 
 .image-state {
-  margin: 25px 15px;
+    margin: 25px 15px;
 }
 
 /* Helpers */
 
 .vh-74 {
-  height: 62vh;
+    height: 62vh;
 }
 
 .hidden {
-  display: none !important;
+    display: none !important;
 }
 
 .margin-auto {
-  margin: auto !important;
+    margin: auto !important;
 }
 
 .flex {
-  display: flex
+    display: flex
+}
+
+button.button.fluid a {
+    color: var(--white) !important;
+}
+
+/* view video */
+
+.fa-square {
+    color: var(--blue);
+}
+
+.fa-circle {
+    height: 8px;
+    color: var(--blue);
+}
+
+.video {
+    position: relative;
+    top: 20px;
+}
+
+.job {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.responsibilities li {
+    list-style: none;
+    line-height: 22px;
+}
+
+.button-video {
+    width: 300px;
+    height: 45px;
+}
+
+.button.button-log {
+    background-color: var(--red-google) !important;
+    color: var(--white) !important;
+    position: relative;
+    right: 320px;
+}
+
+.button.button-video,
+.button.button-log {
+    font-size: 1.3rem;
+}
+
+.user {
+    position: relative;
+    left: 360px;
+}
+
+/* view profile */
+
+.text-center {
+    text-align: center;
+}
+
+.title-form {
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    margin-bottom: 30px !important;
+}
+
+.back {
+    background: #005db9 !important;
+    color: #fff !important;
 }
