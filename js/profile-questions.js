@@ -24,7 +24,26 @@ $(function () {
       },
       grado:{
         identifier:'grado',
-        prompt:'Ingrese academico'
+        rules:[
+          {
+            type:'empty',
+            prompt:'Ingrese disponibilidad'
+        }
+      ]
+      
+      },
+      maxLength: {
+        identifier: 'maxLength',
+        rules: [
+          {
+            type: 'empty',
+            prompt: 'Ingrese descripción'
+          },
+          {
+            type: 'maxLength[100]',
+            prompt: 'Máximo 100 caracteres'
+          }
+        ]
       }
     }, {
         onSuccess: function (e) {
