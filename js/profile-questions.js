@@ -44,6 +44,15 @@ $(function () {
           prompt: 'Máximo 100 caracteres'
         }
       ]
+    },
+    cv:{
+      identifier:'cv',
+      rules:[
+        {
+          type:'empty',
+          prompt:'Adjunte su CV'
+        }
+      ]
     }
   }, {
       onSuccess: function (e) {
