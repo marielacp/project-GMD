@@ -22,16 +22,6 @@ let centinel = 0;
 function nextQuestion() {
   centinel += 1;
   console.log($question.text(`Pregunta ${centinel + 1}`));
-  if (centinel === 7) {
-    nextQuestion
-      .addEventListener('click', function () {
-        title.textContent = 'Pregunta ' + (centinel);
-        window.location.href = 'finish.html';
-      })
-    localStorage.setItem('estado', 'true');
-  } else {
-    localStorage.setItem('estado', 'false');
-  }
 }
 
 const widget = uploadcare.Widget('[role=uploadcare-uploader]');
@@ -39,10 +29,14 @@ widget.onUploadComplete(function (info) {
   var pregunta = chosenQuestions[centinel].question;
   const urlVideo = info.cdnUrl;
   console.log(urlVideo);
+
+  $('.recomendations').append(
+    `<button class="ui right labeled icon button primary next-step-3 margin-auto center-x">
+    <i class="right arrow icon"></i>
+    Siguiente
+  </button>`
+  );
 });
-
-
-
 
 var _pTiempo = 1;
 
