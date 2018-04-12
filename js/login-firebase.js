@@ -90,7 +90,7 @@ var config = {
   
   $('.sign-out-js').click(function () {
     firebase.auth().signOut().then(function () {
-      $(location).attr('href', '/views/video.html');
+      $(location).attr('href', 'project-GMD/views/video.html');
     }).catch(function (error) {
       // An error happened.
   
