@@ -12,6 +12,30 @@ h1 {
   color: var(--corporate-black80);
 }
 
+.ui.container .item.brand {
+  padding: 0;
+}
+
+.ui.container .item.brand img {
+  width: 90px;
+}
+
+.ui.grid > .row > .ui.segment.column {
+  padding-top: 0;
+}
+
+.ui.raised.segment.steps-container {
+  padding: 0;
+}
+
+.container-step-1 {
+  margin: 28px 0;
+}
+
+nav {
+  border-bottom: 1px solid rgba(209, 209, 209, 1);
+}
+
 /* Postulantes */
 
 .center-xy {
@@ -20,17 +44,51 @@ h1 {
   align-items: center;
 }
 
+.center-x {
+  display: flex !important;
+  justify-content: center;
+}
+
 .questions {
   width: 60%;
   margin: auto;
 }
 
+.round-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 1px solid var(--corporate-black80);
+  margin: auto;
+}
+
+.round-image img {
+  width: 109px;
+  margin: 20px;
+}
+
+.width-content {
+  width: 60%;
+}
+
+.image-state {
+  margin: 25px 15px;
+}
+
 /* Helpers */
 
-.vh-89 {
-  height: 85vh;
+.vh-74 {
+  height: 62vh;
 }
 
 .hidden {
   display: none !important;
+}
+
+.margin-auto {
+  margin: auto !important;
+}
+
+.flex {
+  display: flex
 }
