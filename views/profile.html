@@ -9,85 +9,111 @@
   <link rel="stylesheet" href="../css/profile.css">
 </head>
 <body>
-  <div class="ui container">
-      <div class="row">
-        <form class="ui form" id="formulario" method="post">
-          <h4 class="ui dividing header text-center title-form">Ingresa los datos de tu perfil profesional</h4>         
-          <div class="two fields">
-            <div class="field">
-                <label>Nombres</label> 
-                <input type="text" name="nombre" placeholder="Nombre" id="name">
+  <nav>
+    <div class="ui grid">
+      <div class="sixteen wide column">
+        <div class='ui secondary huge menu'>
+          <div class='ui container'>
+            <a class='item brand'>
+              <img src="../assets/logoGMD.png" alt="">
+            </a>
+            <div class='right menu'>
+              <a class='link item'>Inicio</a>
+              <a class='link item'>Outsourcing</a>
+              <a class='link item'>Soluciones y servicios</a>
+              <a class='link item'>Contáctenos</a>
+              <a class='link item'>Acerca de GMD</a>
+              <a class='link item'>Bolsa de trabajo</a>
             </div>
-            <div class="field">
-                <label>Apellidos</label> 
-                <input type="text" name="apellido" placeholder="Apellido" id="apellido">
-            </div> 
           </div>
-          <div class="two fields">
-              <div class="field">
-                  <label>Número de Documento</label> 
-                  <input type="text" name="documento" placeholder="Documento de identidad" id="documento">
-              </div>
-              <div class="field">
-                <label>Tipo de Documento</label>
-                  <select class="ui fluid dropdown back" name="tipoDocumento">
-                      <option value="">Tipo</option>
-                      <option value="1">DNI</option>
-                      <option value="2">Carnet de extranjería</option>
-                    </select>
-              </div> 
-            </div>
-            <div class="two fields">
-                <div class="field">
-                    <label>Correo</label>
-                    <input type="email" name="email" placeholder="Email" id="email">
-                </div>
-                <div class="field">
-                    <label>Número de celular</label>
-                    <input type="text" name="celular" placeholder="Celular">
-              </div>
-            </div>
-            <div class="two fields">
-                <div class="field">
-                    <label>Dirección</label>
-                    <input type="text" name="direccion" placeholder="Dirección" id="dirección">
-                </div>
-                <div class="field">
-                    <label>Fecha de Nacimiento</label>
-                    <input type="text" name="fecha" placeholder="Fecha de Nacimiento">
-              </div>
-            </div>
-            <div class="two fields">
-                <div class="field">
-                    <label>Carrera</label>
-                    <input type="text" name="carrera" placeholder="Carrera">
-               </div>
-               <div class="field">
-                  <label>Instituto y/o Universidad</label>
-                  <input type="text" name="universidad" placeholder="Universidad">
-               </div>
-            </div>
-            <div class="two fields">
-                <div class="field">
-                    <label>Idiomas</label>
-                    <input type="text" name="idiomas" placeholder="Idioma">
-               </div>
-               <div class="field">
-                  <label>Nivel</label>
-                  <select class="ui fluid dropdown back" name="ingles">
-                      <option value="">Basico</option>
-                      <option value="1">Intermedio</option>
-                      <option value="2">Avanzado</option>
-                    </select>
-               </div>
-            </div>
-          <div class="ui error message"></div>
-          <div class="ui button submit back" id="btn-enviar">Registrar</div>
-        </form>
+        </div>
       </div>
+    </div>
+  </nav>
+  <div class="ui container">
+    <div class="row">
+      <form class="ui form" id="formulario" method="post">
+        <h4 class="ui dividing header text-center title-form">Ingresa los datos de tu perfil profesional</h4>
+        <div class="two fields">
+          <div class="field">
+            <label>Nombres</label>
+            <input type="text" name="nombre" placeholder="Nombre" id="name">
+          </div>
+          <div class="field">
+            <label>Apellidos</label>
+            <input type="text" name="apellido" placeholder="Apellido" id="apellido">
+          </div>
+        </div>
+        <div class="two fields">
+          <div class="field">
+            <label>Número de Documento</label>
+            <input type="text" name="documento" placeholder="Documento de identidad" id="documento">
+          </div>
+          <div class="field">
+            <label>Tipo de Documento</label>
+            <select class="ui fluid dropdown back" name="tipoDocumento">
+              <option value="">Tipo</option>
+              <option value="1">DNI</option>
+              <option value="2">Carnet de extranjería</option>
+            </select>
+          </div>
+        </div>
+        <div class="two fields">
+          <div class="field">
+            <label>Correo</label>
+            <input type="email" name="email" placeholder="Email" id="email">
+          </div>
+          <div class="field">
+            <label>Número de celular</label>
+            <input type="text" name="celular" placeholder="Celular">
+          </div>
+        </div>
+        <div class="two fields">
+          <div class="field">
+            <label>Dirección</label>
+            <input type="text" name="direccion" placeholder="Dirección" id="dirección">
+          </div>
+          <div class="field">
+            <label>Fecha de Nacimiento</label>
+            <input type="text" name="fecha" placeholder="Fecha de Nacimiento">
+          </div>
+        </div>
+        <div class="two fields">
+          <div class="field">
+            <label>Carrera</label>
+            <input type="text" name="carrera" placeholder="Carrera">
+          </div>
+          <div class="field">
+            <label>Instituto y/o Universidad</label>
+            <input type="text" name="universidad" placeholder="Universidad">
+          </div>
+        </div>
+        <div class="two fields">
+          <div class="field">
+            <label>Idiomas</label>
+            <input type="text" name="idiomas" placeholder="Idioma">
+          </div>
+          <div class="field">
+            <label>Nivel</label>
+            <select class="ui fluid dropdown back" name="ingles">
+              <option value="">Basico</option>
+              <option value="1">Intermedio</option>
+              <option value="2">Avanzado</option>
+            </select>
+          </div>
+        </div>
+        <div class="ui error message"></div>
+        <!-- <div class="ui button submit back massive" id="btn-enviar">Registrar</div> -->
+        <div class="ui container center aligned">
+            <div class="ui segment button submit massive back" id="btn-enviar">Registrar</div>
+        </div>
+      </form>
+    </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script src="../vendors/semantic/semantic.min.js"></script>
   <script src="../js/profile.js"></script>
 </body>
+
 </html>

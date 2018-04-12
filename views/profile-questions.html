@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,27 @@
   <link rel="stylesheet" href="../css/profile.css">
 </head>
 <body>
+    <nav>
+      <div class="ui grid">
+        <div class="sixteen wide column">
+          <div class='ui secondary huge menu'>
+            <div class='ui container'>
+              <a class='item brand'>
+                <img src="../assets/logoGMD.png" alt="">
+              </a>
+              <div class='right menu'>
+                <a class='link item'>Inicio</a>
+                <a class='link item'>Outsourcing</a>
+                <a class='link item'>Soluciones y servicios</a>
+                <a class='link item'>Contáctenos</a>
+                <a class='link item'>Acerca de GMD</a>
+                <a class='link item'>Bolsa de trabajo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
   <div class="ui container">
     <div class="row">
       <form class="ui form" id="formulario" method="post">
@@ -30,10 +51,17 @@
         <label>¿Cuentas con experiencia laboral? Comentanos</label>
         <textarea name="maxLength" cols="5"></textarea>
       </div>
-      <div class="field">
-        <button class="ui button submit back">Adjuntar CV</button>
+      <div>
+          <label for="file" class="ui icon button">
+              <i class="file icon"></i>
+              Adjuntar CV</label>
+          <input type="file" id="file" style="display:none">
       </div>
         <div class="ui error message"></div>
+        <div class="ui container center aligned">
+            <div class="ui segment button submit massive back" id="btn-enviar">Enviar</div>
+        </div>
+  
       </form>
     </div>
   </div>
