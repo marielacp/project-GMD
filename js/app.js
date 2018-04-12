@@ -14,3 +14,10 @@ $('.next-step-3').on("click", function () {
   $('.content-step-4').removeClass('hidden');
 });
 
+
+$('.slider').glide({
+  autoplay: false,
+  arrowsWrapperClass: 'slider-arrows',
+  arrowRightText: '',
+  arrowLeftText: ''
+});
