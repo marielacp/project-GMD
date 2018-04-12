@@ -29,13 +29,8 @@ widget.onUploadComplete(function (info) {
   var pregunta = chosenQuestions[centinel].question;
   const urlVideo = info.cdnUrl;
   console.log(urlVideo);
-
-  $('.recomendations').append(
-    `<button class="ui right labeled icon button primary next-step-3 margin-auto center-x">
-    <i class="right arrow icon"></i>
-    Siguiente
-  </button>`
-  );
+  $('.recommendations').addClass('hidden');
+  $('.video-ready').removeClass('hidden');
 });
 
 var _pTiempo = 1;

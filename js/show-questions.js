@@ -8,7 +8,10 @@ $(".next-step-2").on("click", function () {
 
 $(document).on('click', '.next-step-3', function (event) {
   console.log('next-step-3');
-  
+  $('.step-2').removeClass("active");
+  $('.step-2').addClass("disabled");
+  $('.content-step-2').addClass('hidden');
+  $('.content-step-3').removeClass('hidden');
 });
 
 const numQuestionsRequired = [2, 2]; // Preguntas requeridas por grupo
