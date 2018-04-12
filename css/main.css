@@ -1,6 +1,7 @@
 :root {
     --blue: rgb(0, 93, 180);
     --black: rgb(43, 41, 34);
+    --corporate-black20: rgb(241, 241, 241);
     --corporate-black50: rgb(149, 148, 146);
     --corporate-black80: rgb(85, 84, 79);
     --white: rgb(255, 255, 255);
@@ -161,4 +162,22 @@ button.button.fluid a {
 .back {
     background: #005db9 !important;
     color: #fff !important;
+}
+
+/* adm */
+
+.adm {
+    transform: translateY(+50%);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.adm .card .content {
+    background-color: var(--corporate-black20) !important;
+}
+
+.adm .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
