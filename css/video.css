@@ -11,3 +11,32 @@
 .fa-square {
     color: var(--blue);
 }
+
+.fa-circle {
+    height: 8px;
+    color: var(--blue);
+}
+
+.video {
+    position: relative;
+    top: 20px;
+}
+
+.job {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.responsibilities li {
+    list-style: none;
+    line-height: 22px;
+}
+
+.button-video {
+    width: 300px;
+    height: 45px;
+}
+
+.button.button-video {
+    font-size: 1.3rem;
+}

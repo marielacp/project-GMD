@@ -13,14 +13,9 @@ var DATA = [
       "Ejecutar sus tareas en base a la metodología y estándares definidos en el proyecto/servicio.",
       "Ejecutar sus tareas mediante el uso correcto de las herramientas establecidas para el proyecto/servicio.",
       "Realizar pruebas unitarias y participar en las pruebas de integración.",
-      "Realizar tareas de apoyo a la ejecución de un proyecto de desarrollo.",
       "Desarrollar componentes de software reusables en lenguajes de programación.",
       "Participar en la elaboración de documentos técnicos y las especificaciones de desarrollo.",
-      "Actualizar las especificaciones de los programas que se requieran codificar.",
-      "Respetar y cumplir los lineamientos de la organización relacionados con la seguridad de la información de nuestros clientes.",
-      "Respetar y cumplir con el Reglamento interno de Trabajo y el Reglamento Interno de SST; estipulada y difundida a través de GMD y sus filiales.",
-      "Respetar los lineamientos de seguridad de la información de los colaboradores de la empresa, en cumplimiento de la Ley de Protección de Datos.",
-      "Todos aquellos requerimientos que el jefe le solicite."
+      "Respetar y cumplir con el Reglamento interno de Trabajo y el Reglamento Interno de SST; estipulada y difundida a través de GMD y sus filiales."
     ],
     formacion: {
       formacionBasica: [
