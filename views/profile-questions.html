@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Perfil Profesional</title>
   <link rel="stylesheet" href="../vendors/semantic/semantic.min.css">
-  <link rel="stylesheet" href="../css/profile.css">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <nav>
@@ -24,13 +24,14 @@
                 <a class='link item'>Contáctenos</a>
                 <a class='link item'>Acerca de GMD</a>
                 <a class='link item'>Bolsa de trabajo</a>
+                <a class='link item sign-out-js'>Cerrar sesión</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
-  <div class="ui container">
+  <div class="ui grid container">
     <div class="row">
       <form class="ui form" id="formulario" method="post">
         <div class="field">
@@ -74,15 +75,28 @@
         
         <div class="ui error message"></div>
         <div class="ui container center aligned">
-            <div class="ui segment button submit massive back" id="btn-enviar">Enviar</div>
+            <div class="ui segment button submit massive back" id="btn-enviar">
+              <a href="./profile.html">
+              Enviar
+              </a>
+            </div>
         </div>
   
       </form>
     </div>
   </div>
+   <!--Firebase init  -->
+   <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="../vendors/semantic/semantic.min.js"></script>
+  <script src="../js/login-firebase.js"></script>
   <script src="../js/profile-questions.js"></script>
+  <!-- <script src="../js/video.js"></script> -->
+  <!-- <script src="../js/profile-questions.js"></script> -->
 </body>
 </html>

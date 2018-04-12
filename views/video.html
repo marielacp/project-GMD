@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../vendors/semantic/semantic.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <div class="ui grid">
+      <div class="sixteen wide column">
+        <div class='ui secondary huge menu'>
+          <div class='ui container'>
+            <a class='item brand'>
+              <img src="../assets/logoGMD.png" alt="">
+            </a>
+            <div class='right menu'>
+              <a class='link item'>Inicio</a>
+              <a class='link item'>Outsourcing</a>
+              <a class='link item'>Soluciones y servicios</a>
+              <a class='link item'>Contáctenos</a>
+              <a class='link item'>Acerca de GMD</a>
+              <a class='link item'>Bolsa de trabajo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="ui grid container">
+    <div class="row">
+      <div class="seven wide column video center aligned">
+        <h1 class="title-job "></h1>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TZxPVc8MCqU" frameborder="0" allow="autoplay; encrypted-media"
+          allowfullscreen></iframe>
+      </div>
+      <div class="two wide column">
+      </div>
+      <div class="seven wide column">
+        <div class="job">
+          <h3>
+            <i class="fas fa-square"></i> Descripción</h3>
+
+          <p class="description"> </p>
+
+        </div>
+        <div class="job">
+          <h3>
+            <i class="fas fa-square"></i> Funciones y Responsabilidades</h3>
+          <ul class="responsibilities"> </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="center aligned one column row">
+      <div class="column">
+        <div class="ui ">
+          <button class="ui primary button button-video">
+            Postular
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <div class="ui grid container center aligned">
+    <div class="row">
+      <div class="sixteen wide column">
+        <div id="modal" class="ui modal">
+          <i class="close icon"></i>
+          <div class="header">
+            Iniciar sesión Bolsa GMD
+          </div>
+          <div class="user">
+            <div class="ui">
+              <i class="far fa-user-circle fa-10x"></i>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="ui positive center aligned">
+              <!-- href="./profile-questions.html" -->
+              <button class="ui button button-log apply-button-js">
+                Iniciar sesión con Google
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Firebase init  -->
+  <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/video.js"></script>
+  <script src="../vendors/semantic/semantic.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+    crossorigin="anonymous"></script>
+  <script src="../js/login-firebase.js"></script>
+
+</body>
+
+</html>
