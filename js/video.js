@@ -13,4 +13,5 @@ $(document).ready(function() {
   $(".button-video").click(function() {
     $("#modal").modal("show");
   });
+  $(".ui.sidebar").sidebar("toggle");
 });
