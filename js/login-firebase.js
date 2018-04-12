@@ -37,7 +37,7 @@ var config = {
       // ...
       // si el usuario se logea puede entrar al app :
     initApp();
-    $(location).attr('href', '/views/profile-questions.html');
+    $(location).attr('href', '../views/profile-questions.html');
     }).then(
      
       );
