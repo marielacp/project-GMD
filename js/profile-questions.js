@@ -1,3 +1,4 @@
+
 $(function () {
     $('#formulario').form({
       salario: {
@@ -52,3 +53,81 @@ $(function () {
         }
       })
   });
+
+$(function() {
+     
+    // Get a reference to the database service
+    var database = firebase.database();
+   // dataUser = database.ref('/dataUser' + uid)
+    var $autores = [];
+    var user = firebase.auth().currentUser;
+    firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+       // dataUser = database.ref('dataUser/' + user.uid)
+          // User is signed in.
+          
+         // agregaElemento($autores,(user.uid));
+          console.log('logueado'); 
+          //window.location.href="../autores/";
+console.log(user);
+          
+  
+        /*   $('.autoresFavoritos').on('click',function() {
+            if(!$(this).hasClass('active')){
+              $(this).addClass('active');
+              $autores.push($(this).val());
+              console.log($autores);
+              if ($autores.length>=5) {
+                $('#next').attr("disabled", false);
+              }
+            }
+          }); */
+          $("input:text").click(function() {
+            $(this).parent().find("input:file").click();
+          });
+          
+          $('input:file', '.ui.action.input')
+            .on('change', function(e) {
+              
+              //  var name = e.target.files[0].name;
+               // var file = e.target.files[0];
+              //  console.log(file);
+                $('input:text', $(e.target).parent()).val(name);
+              //  $autores.push(file);
+                dataUser = database.ref('dataUser/' + user.uid)
+               var StorageRef = firebase.storage().ref();
+                var imageUpload = e.target.files[0];
+                var uploadImages = StorageRef.child('userCV/' +user.uid).put(imageUpload);
+                // User is signed in.
+                
+               // agregaElemento($autores,(user.uid));
+              
+              
+            });
+         // });
+          
+        } else {
+          // No user is signed in.
+          console.log('no logueado');
+        }
+      });
+   
+  
+    /* function agregaElemento(pruebaElemento){
+        //dataUser = database.ref()
+        var StorageRef = firebase.storage().ref();
+        StorageRef.push({
+         pruebaElemento: pruebaElemento,        
+        })
+       } */  
+}); 
+
+/* $(".upload-cv").click(function() {
+  $(this).parent().find("input:file").click();
+});
+
+$('input:file', '.ui.action.input')
+  .on('change', function(e) {
+    var name = e.target.files[0].name;
+    $('input:text', $(e.target).parent()).val(name);
+  }); */
