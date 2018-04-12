@@ -1,0 +1,13 @@
+:root {
+    --blue: rgb(0, 93, 180);
+    --black: rgb(43, 41, 34);
+    --corporate-black50: rgb(149, 148, 146);
+    --corporate-black80: rgb(85, 84, 79);
+    --white: rgb(255, 255, 255);
+    --dark-blue: rgb(24, 67, 109);
+    --light-blue: rgb(51, 125, 196);
+}
+
+.fa-square {
+    color: var(--blue);
+}
