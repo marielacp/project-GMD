@@ -12,3 +12,7 @@
     background:#005db9 !important;
     color:#fff !important;
 }
+
+.ui.action.input input[type="file"] {
+    display: none;
+  }
