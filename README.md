@@ -25,12 +25,15 @@ Luego de ello se iteró el flujo propuesto en base a la minimificación del proc
 
 ### Prototipo:
 * P. Baja fidelidad: 
+
 ![Protitpo en baja fidelidad](assets/image/prototipoenBaja.png)
 
 * P. Alta fidelidad del Postulante:
+
 ![Prototipo en alta fidelidad Postulante](assets/image/prototipoenAltaPos.PNG)
 
 * P. Alta fidelidad del reclutador:
+
 ![Prototipo en alta fidelidad admin](assets/image/prototipoenAltaAdmin.PNG)
 
 [Click Aquí para ver el prototipo en acción!](https://marvelapp.com/cfc6ae4/screen/41132338)
