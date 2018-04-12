@@ -69,5 +69,47 @@ var DATA = [
         cargo: "Practicante de Programación"
       }
     ]
-  }
+  },
+  {
+    fecha: "14/05/2018",
+    ubicacion: "Lima",
+    rubro: "Tecnología - IT",
+    cargo: "Analista de sistemas"
+  },
+  {
+    fecha: "20/05/2018",
+    ubicacion: "Miraflores",
+    rubro: "Tecnología - IT",
+    cargo: "Asesor de Marketing"
+  },
+  {
+    fecha: "11/06/2018",
+    ubicacion: "Lima",
+    rubro: "Tecnología - IT",
+    cargo: "Analista de datos"
+  },
+  {
+    fecha: "02/05/2018",
+    ubicacion: "Lima",
+    rubro: "Tecnología - IT",
+    cargo: "Analista de desarrollo humano"
+  },
+  {
+    fecha: "30/05/2018",
+    ubicacion: "Miraflores",
+    rubro: "Tecnología - IT",
+    cargo: "Analista de finanzas"
+  },
+  {
+    fecha: "01/15/2018",
+    ubicacion: "Lima",
+    rubro: "Tecnología - IT",
+    cargo: "Administrador de servidores"
+  },
+  {
+    fecha: "07/05/2018",
+    ubicacion: "Lima",
+    rubro: "Tecnología - IT",
+    cargo: "Especialista de soporte HD"
+  },
 ];
