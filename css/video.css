@@ -6,6 +6,7 @@
     --white: rgb(255, 255, 255);
     --dark-blue: rgb(24, 67, 109);
     --light-blue: rgb(51, 125, 196);
+    --red-google: rgb(207, 63, 47);
 }
 
 .fa-square {
@@ -37,6 +38,19 @@
     height: 45px;
 }
 
-.button.button-video {
+.button.button-log {
+    background-color: var(--red-google) !important;
+    color: var(--white) !important;
+    position: relative;
+    right: 320px;
+}
+
+.button.button-video,
+.button.button-log {
     font-size: 1.3rem;
+}
+
+.user {
+    position: relative;
+    left: 360px;
 }

@@ -9,3 +9,9 @@ data.funciones.forEach(function(element) {
 
 $(".title-job").html(data.cargo);
 $(".description").html(data.objetivo);
+
+$(document).ready(function() {
+  $(".button-video").click(function() {
+    $("#modal").modal("show");
+  });
+});
