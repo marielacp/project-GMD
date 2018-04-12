@@ -1,3 +1,4 @@
+
 $(".next-step-2").on("click", function () {
   console.log('next-step-2');
   $('.step-1').removeClass("active");

@@ -213,3 +213,7 @@ body {
 .uploadcare--camera__button.uploadcare--camera__button_type_capture {
   display: none;
 }
+
+#photo-user{
+   border-radius: 50%;
+}
