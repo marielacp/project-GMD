@@ -182,3 +182,7 @@ button.button.fluid a {
 .slider1 .item4 {
   background: url("../assets/image4.png") no-repeat center !important;
 }
+
+.ui.action.input input[type="file"] {
+  display: none;
+}

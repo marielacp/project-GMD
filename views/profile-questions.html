@@ -24,6 +24,7 @@
                 <a class='link item'>Contáctenos</a>
                 <a class='link item'>Acerca de GMD</a>
                 <a class='link item'>Bolsa de trabajo</a>
+                <a class='link item sign-out-js'>Cerrar sesión</a>
               </div>
             </div>
           </div>
@@ -51,12 +52,16 @@
         <label>¿Cuentas con experiencia laboral? Comentanos</label>
         <textarea name="maxLength" cols="5"></textarea>
       </div>
-      <div>
-          <label for="file" class="ui icon button">
-              <i class="file icon"></i>
-              Adjuntar CV</label>
-          <input type="file" id="file" style="display:none">
-      </div>
+      <div class="ui container center aligned">
+        <div class="ui action input">
+            <input type="text" placeholder="CV" readonly>
+            <input type="file">
+            <div class="ui icon button">
+              <i class="attach icon"></i>
+              <span>Adjuntar CV</span>
+            </div>
+          </div>
+    </div>
         <div class="ui error message"></div>
         <div class="ui container center aligned">
             <div class="ui segment button submit massive back" id="btn-enviar">
@@ -69,9 +74,18 @@
       </form>
     </div>
   </div>
+   <!--Firebase init  -->
+   <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="../vendors/semantic/semantic.min.js"></script>
+  <script src="../js/login-firebase.js"></script>
   <script src="../js/profile-questions.js"></script>
+  <!-- <script src="../js/video.js"></script> -->
+  <!-- <script src="../js/profile-questions.js"></script> -->
 </body>
 </html>
