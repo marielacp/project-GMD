@@ -72,7 +72,7 @@ nav {
 }
 
 .image-state {
-  margin: 25px 0;
+  margin: 25px 15px;
 }
 
 /* Helpers */
@@ -87,4 +87,8 @@ nav {
 
 .margin-auto {
   margin: auto !important;
+}
+
+.flex {
+  display: flex
 }
