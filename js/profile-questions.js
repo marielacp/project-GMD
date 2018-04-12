@@ -50,6 +50,7 @@ $(function () {
         onSuccess: function (e) {
           e.preventDefault();
           // alert('Gracias por postular GMD')
+          $(location).attr('href', '/views/profile.html');
         }
       })
   });

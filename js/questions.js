@@ -46,3 +46,24 @@ const questions = {
     }
   ]
 }
+
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyAiIe2suwj2sqSAftDoKEb9OWvTLGJErMM",
+  authDomain: "red-social-cc078.firebaseapp.com",
+  databaseURL: "https://red-social-cc078.firebaseio.com",
+  projectId: "red-social-cc078",
+  storageBucket: "red-social-cc078.appspot.com",
+  messagingSenderId: "357327737326"
+};
+firebase.initializeApp(config);
+
+firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    var name = user.displayName;
+    console.log(name)
+    var photo = user.photoURL;
+    $('.name-js').text(name);
+    $('.photo-user-js').attr('src',photo)
+  }
+})
