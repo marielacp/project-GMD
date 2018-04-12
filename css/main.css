@@ -186,3 +186,20 @@ button.button.fluid a {
 .ui.action.input input[type="file"] {
   display: none;
 }
+
+
+/*Uploadcare */
+
+
+.uploader-green-button .uploadcare--widget__button_type_open {
+  background-color: var(--corporate-black80);
+}
+
+.uploader-green-button .uploadcare--widget__button_type_open:hover {
+  background-color: var(--corporate-black50);
+  transform: scale(1.05);
+}
+
+.uploadcare--camera__button.uploadcare--camera__button_type_capture {
+  display: none;
+}
